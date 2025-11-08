@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/shape_rounded_card_white"
+    android:layout_marginBottom="8dp">
+
+    <!-- This TextView needs the ID tv_food_name -->
+    <TextView
+        android:id="@+id/tv_food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Item Name"
+        android:textColor="@color/textDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- This TextView needs the ID tv_brand -->
+    <TextView
+        android:id="@+id/tv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand Owner"
+        android:textColor="@color/textSubtle"
+        android:textSize="14sp"
+        android:visibility="gone" /> <!-- Adapter will make this visible -->
+
+    <!-- This TextView needs the ID tv_nutrients -->
+    <TextView
+        android:id="@+id/tv_nutrients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kcal: 0, P: 0g, F: 0g"
+        android:textColor="@color/textDark"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
+

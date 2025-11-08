@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="ai_welcome_message">Hi! How can I help you today? You can ask me things like:\n\n• \"Suggest a healthy breakfast\"\n• \"Analyze my lunch: 1 chicken salad and an apple\"</string>
+</resources>

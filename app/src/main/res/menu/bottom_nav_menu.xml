@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_placeholder"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_ai_assistant"
+        android:icon="@drawable/ic_ai_placeholder"
+        android:title="AI Assistant" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile_placeholder"
+        android:title="Profile" />
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="white">#121212</color>
+    <color name="black">#FFFFFF</color>
+    
+    <!-- App Theme Colors -->
+    <color name="appBackground">#121212</color>
+    <color name="cardWhiteBg">#1E1E1E</color>
+    
+    <!-- Text Colors -->
+    <color name="textDark">#FFFFFF</color>
+    <color name="textSubtle">#CCCCCC</color>
+    <color name="textLight">#000000</color>
+    
+    <!-- UI Element Colors -->
+    <color name="profileGray">#2A2A2A</color>
+    <color name="primaryGreenLight">#1B2A1B</color>
+    
+    <!-- Nutrition Colors -->
+    <color name="proteinColor">#FF8A80</color>
+    <color name="fatColor">#80CBC4</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="primaryGreen">#81C784</color>
+    <color name="iconColor">#E0E0E0</color>
+    
+    <!-- Progress and Background Colors -->
+    <color name="progressBg">#424242</color>
+    <color name="lightGreyBg">#2A2A2A</color>
+    <color name="chatBubble">#2A2A2A</color>
+    
+    <!-- Meal Colors -->
+    <color name="breakfastColor">#FFCC80</color>
+    <color name="lunchColor">#A5D6A7</color>
+    <color name="snackColor">#F48FB1</color>
+    <color name="dinnerColor">#B39DDB</color>
+    
+    <!-- Theme Colors (Dark variants) -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#BB86FC</color>
+    <color name="purple_700">#9C27B0</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00BCD4</color>
+    
+    <!-- Additional Material Colors (Dark variants) -->
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_500">#42A5F5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#66BB6A</color>
+    <color name="green_700">#388E3C</color>
+    
+    <!-- Launcher Icon -->
+    <color name="ic_launcher_background">#1B1B1B</color>
+</resources>

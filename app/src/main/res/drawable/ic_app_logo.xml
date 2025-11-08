@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Bowl -->
+    <path
+        android:fillColor="#808080"
+        android:pathData="M50,120 Q50,140 70,150 L130,150 Q150,140 150,120 L150,100 L50,100 Z"/>
+    
+    <!-- Bowl rim -->
+    <path
+        android:fillColor="#A0A0A0"
+        android:pathData="M45,100 Q45,95 50,95 L150,95 Q155,95 155,100 L155,105 L45,105 Z"/>
+    
+    <!-- Fork on bowl -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M40,110 L45,115 L50,110 L50,105 L45,105 L40,105 Z"/>
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M42,105 L43,100 M45,105 L45,100 M47,105 L47,100"
+        android:strokeColor="#C0C0C0"
+        android:strokeWidth="1"/>
+    
+    <!-- Vegetables in bowl -->
+    <!-- Tomato (as circle using path) -->
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M80,107 A8,8 0 1,1 80,123 A8,8 0 1,1 80,107 Z"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M78,107 Q80,105 82,107 L82,110 L78,110 Z"/>
+    
+    <!-- Carrot -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M110,105 L115,125 Q113,127 110,125 Q107,127 105,125 L110,105 Z"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M108,105 L109,100 M110,105 L111,100 M112,105 L113,100"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="1"/>
+    
+    <!-- Lettuce leaves -->
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M65,110 Q60,105 65,100 Q70,105 75,100 Q80,105 75,110 Q70,115 65,110 Z"/>
+    
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M125,110 Q120,105 125,100 Q130,105 135,100 Q140,105 135,110 Q130,115 125,110 Z"/>
+    
+    <!-- Broccoli (as circles using paths) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M95,102 A6,6 0 1,1 95,114 A6,6 0 1,1 95,102 Z"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,107 A5,5 0 1,1 100,117 A5,5 0 1,1 100,107 Z"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M90,107 A5,5 0 1,1 90,117 A5,5 0 1,1 90,107 Z"/>
+</vector>
