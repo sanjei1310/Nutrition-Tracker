@@ -163,37 +163,4 @@ app/src/main/
 5. **View Activities**: Check your app usage history from the menu
 6. **Profile**: Manage your account settings
 
-## API Configuration
 
-The app uses the USDA FoodData Central API for food search. To use your own API key:
-
-1. Get a free API key from [USDA FoodData Central](https://fdc.nal.usda.gov/api-key-signup.html)
-2. Update the API key in your code (search for "DEMO_KEY" in the project)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- USDA FoodData Central for nutrition data
-- Firebase for backend services
-- Material Design for UI components
-
-## Support
-
-For issues, questions, or suggestions, please open an issue on GitHub.
-
----
-
-Made with ❤️ for healthier living
