@@ -35,7 +35,8 @@ public class AiAssistantActivity extends AppCompatActivity {
 
     private static final String TAG = "AiAssistantActivity";
     // --- IMPORTANT: PASTE YOUR GEMINI API KEY HERE ---
-    private static final String GEMINI_API_KEY = "AIzaSyCWhWzWDNwPkkSwEcM9NuWSI32Vl22Kzdo";
+    // Get your free API key from: https://aistudio.google.com/app/apikey
+    private static final String GEMINI_API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE";
     private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=" + GEMINI_API_KEY;
 
     private RecyclerView rvChatMessages;

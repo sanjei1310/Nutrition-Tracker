@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "684042858686",
-    "project_id": "nutritracker-app-9aeb0",
-    "storage_bucket": "nutritracker-app-9aeb0.firebasestorage.app"
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "your-firebase-project-id",
+    "storage_bucket": "your-firebase-project-id.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:684042858686:android:556987c1b7699b07c4eeef",
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
         "android_client_info": {
           "package_name": "com.example.nutritracker"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASlcNPFoOjtUv1OuGOF9TPJquqwfBw5K8"
+          "current_key": "YOUR_FIREBASE_API_KEY"
         }
       ],
       "services": {

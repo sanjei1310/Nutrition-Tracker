@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# API Keys and Sensitive Files
+# Uncomment the line below if you want to keep your actual google-services.json private
+# app/google-services.json
+
+# Backup files with actual API keys (if you create them)
+*_backup.json
+*_actual.json
+*.key

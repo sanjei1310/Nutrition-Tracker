@@ -2,6 +2,8 @@
 
 A modern Android nutrition tracking application that helps users monitor their daily food intake, track calories and macronutrients, and get AI-powered nutrition assistance.
 
+> **🚀 New to this project?** Check out the [Quick Start Guide](QUICK_START.md) to get running in 15 minutes!
+
 ## Features
 
 - **User Authentication**: Secure email/password authentication using Firebase Auth
@@ -54,8 +56,9 @@ Before running this project, you need:
 
 1. **Android Studio** (Arctic Fox or later)
 2. **JDK 11** or higher
-3. **Firebase Account** (free tier works)
-4. **USDA API Key** (optional, for food search)
+3. **Firebase Account** (free tier works) - **REQUIRED**
+4. **USDA API Key** (free) - **REQUIRED** for food search
+5. **Google Gemini API Key** (free) - **REQUIRED** for AI assistant
 
 ## Firebase Setup
 
@@ -110,9 +113,12 @@ service cloud.firestore {
    - Select "Open an existing project"
    - Navigate to the cloned directory
 
-3. **Configure Firebase**
+3. **Configure API Keys**
    - Follow the Firebase Setup steps above
-   - Ensure `google-services.json` is in the `app/` directory
+   - Ensure `google-services.json` is in the `app/` directory with your actual Firebase credentials
+   - Add your USDA API key in `AddFoodActivity.java`
+   - Add your Gemini API key in `AiAssistantActivity.java`
+   - See "API Configuration" section for detailed instructions
 
 4. **Sync Gradle**
    - Android Studio should automatically sync
@@ -175,10 +181,44 @@ app/src/main/
 
 ## API Configuration
 
-The app uses the USDA FoodData Central API for food search. To use your own API key:
+### Required API Keys
 
+This app requires three API keys to function properly:
+
+#### 1. Firebase Configuration (Required)
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new project or use an existing one
+3. Add an Android app with package name: `com.example.nutritracker`
+4. Download the `google-services.json` file
+5. Replace the placeholder file in `app/google-services.json` with your downloaded file
+   - A template is provided at `app/google-services.json.example` for reference
+6. Enable **Email/Password** authentication in Firebase Console
+7. Create a **Firestore Database** in production mode
+
+**Note:** The `google-services.json` file in this repository contains placeholder values. You MUST replace it with your actual Firebase configuration file.
+
+#### 2. USDA FoodData Central API (Required for Food Search)
 1. Get a free API key from [USDA FoodData Central](https://fdc.nal.usda.gov/api-key-signup.html)
-2. Update the API key in your code (search for "DEMO_KEY" in the project)
+2. Open `app/src/main/java/com/example/nutritracker/AddFoodActivity.java`
+3. Replace `PASTE_YOUR_USDA_API_KEY_HERE` with your actual API key:
+   ```java
+   private static final String API_KEY = "YOUR_ACTUAL_USDA_API_KEY";
+   ```
+
+#### 3. Google Gemini AI API (Required for AI Assistant)
+1. Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. Open `app/src/main/java/com/example/nutritracker/AiAssistantActivity.java`
+3. Replace `PASTE_YOUR_GEMINI_API_KEY_HERE` with your actual API key:
+   ```java
+   private static final String GEMINI_API_KEY = "YOUR_ACTUAL_GEMINI_API_KEY";
+   ```
+
+**⚠️ IMPORTANT SECURITY NOTE:**
+- Never commit your actual API keys to version control
+- Keep your `google-services.json` file private
+- Consider using environment variables or secure key management for production apps
+- If you accidentally commit API keys, rotate them immediately
+- For detailed setup instructions, see [API_SETUP_GUIDE.md](API_SETUP_GUIDE.md)
 
 ## Contributing
 

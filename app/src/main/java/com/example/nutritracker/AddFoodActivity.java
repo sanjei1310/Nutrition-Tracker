@@ -40,7 +40,8 @@ import okhttp3.Response;
 public class AddFoodActivity extends AppCompatActivity {
 
     // Your API key for FoodData Central
-    private static final String API_KEY = "XWnCbCh2UbrvYH8l8SNCWCBRPhaOhYZPjp9TLYhN";
+    // Get your free API key from: https://fdc.nal.usda.gov/api-key-signup.html
+    private static final String API_KEY = "PASTE_YOUR_USDA_API_KEY_HERE";
     private static final String TAG = "AddFoodActivity";
 
     private String mealType = "Food"; // Member variable to store meal type
