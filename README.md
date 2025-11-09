@@ -18,15 +18,15 @@ A modern Android nutrition tracking application that helps users monitor their d
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/login.jpg" alt="Login Screen" width="786"/>
-  <img src="screenshots/register.jpg" alt="Registration Screen" width="786"/>
-  <img src="screenshots/home_light.jpg" alt="Home Dashboard - Light Mode" width="786"/>
+  <img src="screenshots/login.jpg" alt="Login Screen" width="250"/>
+  <img src="screenshots/register.jpg" alt="Registration Screen" width="250"/>
+  <img src="screenshots/home_light.jpg" alt="Home Dashboard - Light Mode" width="250"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/home_dark.jpg" alt="Home Dashboard - Dark Mode" width="786"/>
-  <img src="screenshots/ai_assistant.jpg" alt="AI Assistant" width="786"/>
-  <img src="screenshots/profile.jpg" alt="User Profile" width="786"/>
+  <img src="screenshots/home_dark.jpg" alt="Home Dashboard - Dark Mode" width="250"/>
+  <img src="screenshots/ai_assistant.jpg" alt="AI Assistant" width="250"/>
+  <img src="screenshots/profile.jpg" alt="User Profile" width="250"/>
 </p>
 
 ## Tech Stack
